@@ -1,0 +1,40 @@
+.body {
+    background-color: #606c38;
+}
+#header {
+    font-weight: 700;
+    font-size: large;
+    font-size: 32px;
+
+}
+
+#header2 {
+    font-weight: 700;
+    font-size: large;
+    font-size: 28px;
+
+}
+
+.img{
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+
+.main {
+    font-family: 'Rubik', 'sans-serif', 'verdana';
+    color: #fefae0;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+}
+
+.main .list{
+    background-color: #fefae0;
+    color: #283618;
+    font-size: 14px;
+    text-align: left;
+}
