@@ -2,10 +2,14 @@
 
 
 * {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     font-family: 'Rubik', 'sans', 'verdana';
     background-color: #f4f1de;
     
+}
+
+div.containerhead{
+    text-align:center;
 }
 
 .header, 
@@ -42,9 +46,9 @@ img{
 .ulist .olist .recipelist{
     color: #E07A5F;
     font-size: 16px;
+    padding: 10px
+    }
     
-    
-}
 
 
 .ulist li {
@@ -56,10 +60,10 @@ img{
 }
 
 .recipelist li  {
-    display: inline;
+    display: inline-block;
     color: #E07A5F;
-    margin-left: 3rem;
-    padding-left: 1rem;
+    margin: 1rem,1rem,1rem,1rem;
+    padding: 3rem;
        
 }
 
@@ -68,13 +72,17 @@ img{
     text-decoration: none;
 }
 
+.recipelist{
+    padding-inline: 10px;
+}
+
 .ulist a{
     color: #E07A5F;
     text-decoration: none;
 }
 
 a:hover {
-    color: hotpink;
+    color: #81B29A;
     text-decoration: underline;
   }
 
