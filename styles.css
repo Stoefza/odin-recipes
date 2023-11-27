@@ -1,22 +1,37 @@
-.body {
-    background-color: #606c38;
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+
+* {
+    border: 2px solid red;
+    font-family: 'Rubik', 'sans', 'verdana';
+    background-color: #f4f1de;
+    
 }
-#header {
+
+.header, 
+.header2, .header3 {
     font-weight: 700;
     font-size: large;
     font-size: 32px;
+    text-align: center;
+    color: #3D405B;
 
 }
 
-#header2 {
-    font-weight: 700;
-    font-size: large;
-    font-size: 28px;
+.header2 {
+    
+    font-size: 22px;
 
 }
 
-.img{
-    width: 50%;
+.header3 {
+    
+    font-size: 18px;
+
+}
+
+img{
+    width: 25%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -24,17 +39,65 @@
     
 }
 
-.main {
-    font-family: 'Rubik', 'sans-serif', 'verdana';
-    color: #fefae0;
-    font-weight: 500;
-    font-size: 18px;
-    text-align: center;
+.ulist .olist .recipelist{
+    color: #E07A5F;
+    font-size: 16px;
+    
+    
 }
 
-.main .list{
-    background-color: #fefae0;
-    color: #283618;
-    font-size: 14px;
+
+.ulist li {
+    color: #3D405B;
     text-align: left;
+    margin-left: 3rem;
+    padding-left: 1rem;
+    
 }
+
+.recipelist li  {
+    display: inline;
+    color: #E07A5F;
+    margin-left: 3rem;
+    padding-left: 1rem;
+       
+}
+
+.recipelist a{
+    color: #E07A5F;
+    text-decoration: none;
+}
+
+.ulist a{
+    color: #E07A5F;
+    text-decoration: none;
+}
+
+a:hover {
+    color: hotpink;
+    text-decoration: underline;
+  }
+
+.description {
+    font-size: 16px;      
+    font-weight: bold;   
+    text-align: center;
+    color: #E07A5F;
+  }
+
+.olist li {
+    color: #3D405B;
+    text-align: left;
+    margin-left: 3rem;
+    padding-left: 1rem;
+    
+}
+
+.olist a{
+    color: #E07A5F;
+    text-decoration: none;
+}
+ li{
+    padding-top: 0.3em;
+ }
+
